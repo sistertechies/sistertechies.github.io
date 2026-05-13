@@ -2185,8 +2185,8 @@ function Services() {
 
 const TIERS = [
   { label: 'Free', name: 'A first call', body: 'Forty-five minutes. You tell us what is breaking. We tell you, honestly, if it is something we can help with. No deck, no follow-up, no pressure.', fine: 'Costs nothing. Worth a coffee.', em: false },
-  { label: 'From $500', name: 'A weekend fix', body: 'One screen. One button. One nagging problem solved by Sunday. If you do not love it on Monday, you do not pay. Most businesses start here.', fine: 'Pay after you have used it for a week.', em: true },
-  { label: 'From $1000', name: 'The whole thing', body: 'A full FloristVerify-class build — multi-step flow, mobile capture, customer-facing page. Still less than a month of agency time. Half up front, half on delivery.', fine: 'Two-week timeline, usually.', em: false },
+  { label: 'From $500', name: 'Starter system', body: 'A focused system designed to solve one high-friction business problem well.', fine: 'Pay after you have used it for a week.', em: true },
+  { label: 'From $1000', name: 'The whole thing', body: 'A full overhaul — multi-step flow, mobile capture, customer-facing page. Still less than a month of agency time. Half up front, half on delivery.', fine: 'Two-week timeline, usually.', em: false },
   { label: '$100 / mo', name: 'On-call sisters', body: 'We keep your tool running, add the little tweak you keep meaning to ask for, and pick up the phone when something breaks. Cancel any time — really.', fine: 'Cheaper than most calendar apps.', em: false },
 ];
 
@@ -2439,11 +2439,11 @@ function Sisters() {
         <div className="sisters-grid">
           <div className="sister">
             <div className="sister-portrait"><span className="ph">portrait · Eva</span></div>
-            <div className="role">Director · ops &amp; strategy</div>
+            <div className="role">Chief Exectuive Officer · ops &amp; strategy</div>
             <h3>Eva <em>— the listener</em></h3>
             <p>
-              Spends the first call asking what's broken, not pitching software. Ten years inside
-              small-business operations — she knows what a Square receipt looks like at 11pm, and
+              Spends the first call asking what's broken, not pitching software. Several years in
+              consulting and finance — she knows what a Square receipt looks like at 11pm, and
               why your spreadsheet has a tab named "DO NOT TOUCH."
             </p>
             <div className="skills">
@@ -2455,12 +2455,12 @@ function Sisters() {
           </div>
           <div className="sister">
             <div className="sister-portrait"><span className="ph">portrait · Noa</span></div>
-            <div className="role">Engineer · AI &amp; systems</div>
+            <div className="role">Chief Technical Officer · AI &amp; systems</div>
             <h3>Noa <em>— the builder</em></h3>
             <p>
               Turns Eva's plain-English brief into something that runs on your phone by Sunday.
               Wrote her first model at <em>eleven</em>. Specialty: making AI feel boring and
-              reliable — the opposite of the demo that wows you and then forgets your name.
+              Reliable — the opposite of the demo that wows you and then forgets your name.
             </p>
             <div className="skills">
               <span className="skill">LLM agents</span>
@@ -2599,7 +2599,7 @@ function CTA() {
                     name="business"
                     value={business}
                     onChange={(e) => setBusiness(e.target.value)}
-                    placeholder="business and Location."
+                    placeholder="Business and Location"
                     disabled={sending}
                   />
                 </label>
