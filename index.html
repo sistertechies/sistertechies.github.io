@@ -2108,7 +2108,7 @@ function Hero({ tagline, sub, speed }) {
             <div className="hero-meta">
               <div>
                 <div className="k">48<em style={{ fontStyle:'italic', color:'var(--accent-ink)' }}>h</em></div>
-                <div className="v">Discover → Ship</div>
+                <div className="v">Diagnose → Build → Support</div>
               </div>
               <div>
                 <div className="k">$<em style={{ fontStyle:'italic', color:'var(--accent-ink)' }}>300</em></div>
@@ -2147,7 +2147,7 @@ function Premise() {
 }
 
 const SERVICES = [
-  { ix: '01', h: 'MicroSaaS', body: 'A focused tool, scoped to one nagging problem. Not a platform. Not a suite. One button that fixes one thing — and a tiny dashboard behind it.', tag: 'Weekend build' },
+  { ix: '01', h: 'MicroSaaS', body: 'A focused tool, scoped to one nagging problem. Not a platform. Not a suite. One button that fixes one thing — and a tiny dashboard behind it.', tag: 'Scoped implementation' },
   { ix: '02', h: 'AI agents & automations', body: 'Quiet workers that read your email, draft replies, parse invoices, summarize voicemails, or watch your inbox for the things you keep missing.', tag: 'Quiet worker' },
   { ix: '03', h: 'Operations dashboards', body: 'Replace the spreadsheet held together with conditional formatting. Owner-readable. Mobile-friendly. Real numbers, not vibes.', tag: 'Owner-readable' },
   { ix: '04', h: 'Reputation tooling', body: 'Proof-of-service systems like FloristVerify. GPS-stamped, photo-receipted, customer-facing. Turn complaints into a paper trail.', tag: 'Flagship' },
@@ -2165,9 +2165,8 @@ function Services() {
             <h2 className="h-section">Small, sharp tools.<br/><em>Built to fit your business.</em></h2>
           </div>
           <p style={{ maxWidth: 360, color: 'var(--ink-2)', margin: 0 }}>
-            We don't ship features. We ship outcomes — usually one button, one screen, one
-            problem solved before the weekend is over.
-          </p>
+            We solve the day-to-day business problems that waste time, slow teams down, and fall through the cracks.
+          </p>        
         </div>
         <div className="services-grid">
           {SERVICES.map((s) => (
