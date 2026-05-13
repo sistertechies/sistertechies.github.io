@@ -2151,7 +2151,7 @@ const SERVICES = [
   { ix: '02', h: 'AI agents & automations', body: 'Quiet workers that read your email, draft replies, parse invoices, summarize voicemails, or watch your inbox for the things you keep missing.', tag: 'Quiet worker' },
   { ix: '03', h: 'Operations dashboards', body: 'Replace the spreadsheet held together with conditional formatting. Owner-readable. Mobile-friendly. Real numbers, not vibes.', tag: 'Owner-readable' },
   { ix: '04', h: 'Reputation tooling', body: 'Proof-of-service systems like FloristVerify. GPS-stamped, photo-receipted, customer-facing. Turn complaints into a paper trail.', tag: 'Flagship' },
-  { ix: '05', h: 'Two-day audit', body: 'We sit with your shop for two days and find the three places AI actually helps — and the seven places it would be a waste of money.', tag: 'Just listening' },
+  { ix: '05', h: 'Two-day audit', body: 'We sit with your buisness for two days and find the three places AI actually helps — and the seven places it would be a waste of money.', tag: 'Just listening' },
   { ix: '06', h: 'On-call sisterhood', body: 'Monthly check-ins. We pick up. We fix what breaks. We add the small feature you keep meaning to build. Cancel any time.', tag: 'Stay close' },
 ];
 
@@ -2162,7 +2162,7 @@ function Services() {
         <div className="services-head">
           <div>
             <span className="eyebrow">What we build</span>
-            <h2 className="h-section">Small, sharp tools.<br/><em>Built to fit your shop.</em></h2>
+            <h2 className="h-section">Small, sharp tools.<br/><em>Built to fit your buisness.</em></h2>
           </div>
           <p style={{ maxWidth: 360, color: 'var(--ink-2)', margin: 0 }}>
             We don't ship features. We ship outcomes — usually one button, one screen, one
@@ -2186,7 +2186,7 @@ function Services() {
 
 const TIERS = [
   { label: 'Free', name: 'A first call', body: 'Forty-five minutes. You tell us what is breaking. We tell you, honestly, if it is something we can help with. No deck, no follow-up, no pressure.', fine: 'Costs nothing. Worth a coffee.', em: false },
-  { label: 'From $300', name: 'A weekend fix', body: 'One screen. One button. One nagging problem solved by Sunday. If you do not love it on Monday, you do not pay. Most shops start here.', fine: 'Pay after you have used it for a week.', em: true },
+  { label: 'From $300', name: 'A weekend fix', body: 'One screen. One button. One nagging problem solved by Sunday. If you do not love it on Monday, you do not pay. Most buisnesses start here.', fine: 'Pay after you have used it for a week.', em: true },
   { label: 'From $900', name: 'The whole thing', body: 'A full FloristVerify-class build — multi-step flow, mobile capture, customer-facing page. Still less than a month of agency time. Half up front, half on delivery.', fine: 'Two-week timeline, usually.', em: false },
   { label: '$49 / mo', name: 'On-call sisters', body: 'We keep your tool running, add the little tweak you keep meaning to ask for, and pick up the phone when something breaks. Cancel any time — really.', fine: 'Cheaper than most calendar apps.', em: false },
 ];
@@ -2588,7 +2588,7 @@ function CTA() {
                       required
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
-                      placeholder="you@yourshop.com"
+                      placeholder="you@yourbuisness.com"
                       disabled={sending}
                     />
                   </label>
@@ -2600,7 +2600,7 @@ function CTA() {
                     name="business"
                     value={business}
                     onChange={(e) => setBusiness(e.target.value)}
-                    placeholder="Shop Name and Location"
+                    placeholder="Buisness and Location."
                     disabled={sending}
                   />
                 </label>
@@ -2681,7 +2681,7 @@ const TAGLINES = [
   },
   {
     h: 'The opposite of<br/><em>enterprise</em> software.',
-    s: 'Custom AI for florists, bakeries, plumbers, dentists, and every shop a VC has never heard of. Built in 48 hours. Owned by you.',
+    s: 'Custom AI for florists, bakeries, plumbers, dentists, and every buisness a VC has never heard of. Built in 48 hours. Owned by you.',
   },
   {
     h: 'Your bad reviews,<br/><em>solved in a weekend.</em>',
